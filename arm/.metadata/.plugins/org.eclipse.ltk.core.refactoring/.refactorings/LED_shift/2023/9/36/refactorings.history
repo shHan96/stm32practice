@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;LED_shift/Core/Src/SRC_BUTTON&apos; to &apos;SRC_BUTTON.h&apos;" description="Rename resource &apos;SRC_BUTTON&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/SRC_BUTTON" name="SRC_BUTTON.h" stamp="1693960641732" updateReferences="true"/>
+</session>

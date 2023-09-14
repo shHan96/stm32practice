@@ -1,0 +1,21 @@
+12:21:06 **** Incremental Build of configuration Debug for project LED_shift ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:100:11: warning: unused variable 'state' [-Wunused-variable]
+  100 |   uint8_t state=0;
+      |           ^~~~~
+arm-none-eabi-gcc -o "LED_shift.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\arm\LED_shift\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LED_shift.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LED_shift.elf
+ 
+arm-none-eabi-size   LED_shift.elf 
+arm-none-eabi-objdump -h -S  LED_shift.elf  > "LED_shift.list"
+   text	   data	    bss	    dec	    hex	filename
+   6584	     20	   1572	   8176	   1ff0	LED_shift.elf
+Finished building: default.size.stdout
+ 
+Finished building: LED_shift.list
+ 
+
+12:21:06 Build Finished. 0 errors, 1 warnings. (took 689ms)
+

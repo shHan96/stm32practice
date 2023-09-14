@@ -1,0 +1,101 @@
+// -------------------------------------------------
+// Copyright (c) 2021 HiBit <https://www.hibit.dev>
+// -------------------------------------------------
+
+#ifndef pitches_h
+#define pitches_h
+
+#define NOTE_B0  3100
+#define NOTE_C1  3300
+#define NOTE_CS1 3500
+#define NOTE_D1  3700
+#define NOTE_DS1 3900
+#define NOTE_E1  4100
+#define NOTE_F1  4400
+#define NOTE_FS1 4600
+#define NOTE_G1  4900
+#define NOTE_GS1 5200
+#define NOTE_A1  5500
+#define NOTE_AS1 5800
+#define NOTE_B1  6200
+#define NOTE_C2  6500
+#define NOTE_CS2 6900
+#define NOTE_D2  7300
+#define NOTE_DS2 7800
+#define NOTE_E2  8200
+#define NOTE_F2  8700
+#define NOTE_FS2 9300
+#define NOTE_G2  9800
+#define NOTE_GS2 10400
+#define NOTE_A2  11000
+#define NOTE_AS2 11700
+#define NOTE_B2  12300
+#define NOTE_C3  13100
+#define NOTE_CS3 13900
+#define NOTE_DB3 13900
+#define NOTE_D3  14700
+#define NOTE_DS3 15600
+#define NOTE_EB3 15600
+#define NOTE_E3  16500
+#define NOTE_F3  17500
+#define NOTE_FS3 18500
+#define NOTE_G3  19600
+#define NOTE_GS3 20800
+#define NOTE_A3  22000
+#define NOTE_AS3 23300
+#define NOTE_B3  24700
+#define NOTE_C4  26200
+#define NOTE_CS4 27700
+#define NOTE_D4  29400
+#define NOTE_DS4 31100
+#define NOTE_E4  33000
+#define NOTE_F4  34900
+#define NOTE_FS4 37000
+#define NOTE_G4  39200
+#define NOTE_GS4 41500
+#define NOTE_A4  44000
+#define NOTE_AS4 46600
+#define NOTE_B4  49400
+#define NOTE_C5  52300
+#define NOTE_CS5 55400
+#define NOTE_D5  58700
+#define NOTE_DS5 62200
+#define NOTE_E5  65900
+#define NOTE_F5  69800
+#define NOTE_FS5 74000
+#define NOTE_G5  78400
+#define NOTE_GS5 83100
+#define NOTE_A5  88000
+#define NOTE_AS5 93200
+#define NOTE_B5  98800
+#define NOTE_C6  104700
+#define NOTE_CS6 110900
+#define NOTE_D6  117500
+#define NOTE_DS6 124500
+#define NOTE_E6  131900
+#define NOTE_F6  139700
+#define NOTE_FS6 148000
+#define NOTE_G6  156800
+#define NOTE_GS6 166100
+#define NOTE_A6  176000
+#define NOTE_AS6 186500
+#define NOTE_B6  197600
+#define NOTE_C7  209300
+#define NOTE_CS7 221700
+#define NOTE_D7  234900
+#define NOTE_DS7 248900
+#define NOTE_E7  263700
+#define NOTE_F7  279400
+#define NOTE_FS7 296000
+#define NOTE_G7  313600
+#define NOTE_GS7 332200
+#define NOTE_A7  352000
+#define NOTE_AS7 372900
+#define NOTE_B7  395100
+#define NOTE_C8  418600
+#define NOTE_CS8 443500
+#define NOTE_D8  469900
+#define NOTE_DS8 497800
+#define REST     0
+
+#endif

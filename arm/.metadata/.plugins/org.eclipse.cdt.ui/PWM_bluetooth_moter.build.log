@@ -1,0 +1,27 @@
+16:54:51 **** Incremental Build of configuration Debug for project PWM_bluetooth_moter ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:107:16: warning: pointer targets in passing argument 1 of 'strncmp' differ in signedness [-Wpointer-sign]
+  107 |     if(strncmp(rxData,"a",1)==0)
+      |                ^~~~~~
+      |                |
+      |                uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:27:
+C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/string.h:43:19: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   43 | int      strncmp (const char *, const char *, size_t);
+      |                   ^~~~~~~~~~~~
+arm-none-eabi-gcc -o "PWM_bluetooth_moter.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\arm\PWM_bluetooth_moter\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PWM_bluetooth_moter.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PWM_bluetooth_moter.elf
+ 
+arm-none-eabi-size   PWM_bluetooth_moter.elf 
+arm-none-eabi-objdump -h -S  PWM_bluetooth_moter.elf  > "PWM_bluetooth_moter.list"
+   text	   data	    bss	    dec	    hex	filename
+  13952	     20	   1716	  15688	   3d48	PWM_bluetooth_moter.elf
+Finished building: default.size.stdout
+ 
+Finished building: PWM_bluetooth_moter.list
+ 
+
+16:54:52 Build Finished. 0 errors, 1 warnings. (took 739ms)
+
