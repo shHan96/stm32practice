@@ -1,0 +1,2 @@
+../Core/Src/stepper.c:51:6:stepMotorSpeed	1
+../Core/Src/stepper.c:56:6:stepMotorDrive	22
