@@ -1,0 +1,9 @@
+../Core/Src/Fan.c:10:6:FAN_init	1
+../Core/Src/Fan.c:16:6:stop	4
+../Core/Src/Fan.c:21:6:level1	4
+../Core/Src/Fan.c:26:6:level2	4
+../Core/Src/Fan.c:31:6:level3	4
+../Core/Src/Fan.c:36:6:ROTATE_MOTOR_init	1
+../Core/Src/Fan.c:44:6:rotate	9
+../Core/Src/Fan.c:68:6:rotate_on	1
+../Core/Src/Fan.c:72:6:rotate_off	1
